@@ -2,7 +2,7 @@
 
 rm -rf compiler && \
 mkdir -p compiler/bin && \
-mkdir build && \
+mkdir -p build && \
 mkdir -p compiler/libs && \
 wget 'https://c9x.me/compile/release/qbe-1.2.tar.xz' && \
 mv 'qbe-1.2.tar.xz' ./compiler && \
@@ -16,4 +16,10 @@ git clone https://git.sr.ht/~sircmpwn/harec compiler/libs/harec && \
 cp harec_config.mk compiler/libs/harec/config.mk && \
 cd compiler/libs/harec && \
 make && make install && \
+cd ../../.. && \
+git clone https://git.sr.ht/~sircmpwn/hare compiler/libs/hare && \
+cp hare_config.mk compiler/libs/hare/config.mk && \
+cd compiler/libs/hare && \
+make && make install && \
+cd ../../.. && \
 echo DONE

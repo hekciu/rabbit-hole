@@ -1,3 +1,4 @@
+use fmt;
 
 export fn main() void = {
 	const greetings = [
