@@ -15,8 +15,8 @@ ASFLAGS =
 LDLINKFLAGS = --gc-sections -z noexecstack
 
 # commands used by the build script
-HAREC = ./../../bin/harec
-QBE = ./../../bin/qbe
+HAREC = $(PWD)/../../bin/harec
+QBE = $(PWD)/../../bin/qbe
 AS = as
 LD = ld
 SCDOC = scdoc

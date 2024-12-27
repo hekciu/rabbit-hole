@@ -20,6 +20,6 @@ cd ../../.. && \
 git clone https://git.sr.ht/~sircmpwn/hare compiler/libs/hare && \
 cp hare_config.mk compiler/libs/hare/config.mk && \
 cd compiler/libs/hare && \
-make && make install && \
+make install && \
 cd ../../.. && \
 echo DONE

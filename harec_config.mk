@@ -18,7 +18,7 @@ LIBS = -lm
 CC = cc
 AS = as
 LD = ld
-QBE = ./../../bin/qbe
+QBE = $(PWD)/../../bin/qbe
 
 # build locations
 HARECACHE = .cache

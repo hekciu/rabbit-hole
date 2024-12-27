@@ -8,4 +8,8 @@ export fn main() void = {
 		"Привіт, світе!",
 		"こんにちは世界！",
 	];
+
+    for (let greeting .. greetings) {
+        fmt::println(greeting)!;
+    };
 };
