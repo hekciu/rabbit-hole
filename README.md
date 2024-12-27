@@ -1,4 +1,6 @@
-## First time
+### download all of hare toolchain to local folder
 - ./init.sh
-#### run 'make' inside compiler/bin/qbe-1.2
-#### compiler/bin/qbe-1.2' and run 'make'
+### build app
+- make
+### test
+- ./main > output.ha && diff -s output.ha main.ha
