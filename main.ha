@@ -31,14 +31,14 @@ export fn main() void = {
     "            newText = strings::replace(newText, \"\\n\", \"\\\",\\n    \\\"\");",
     "            fmt::print(newText)!;",
     "        } else {",
-    "           fmt::print(letter)!;",
+    "            fmt::print(letter)!;",
     "        };",
     "    };",
     "};",
     "",
     "export fn main() void = {",
-    "    const program = strings::join(\"\\n\",\n    "
-    "\"%\");",
+    "    const program = strings::join(\"\\n\",",
+    "    \"%\");",
     "",
     "    printProgram(program);",
     "};");
