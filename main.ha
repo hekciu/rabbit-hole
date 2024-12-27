@@ -14,6 +14,7 @@ fn printProgram(text: str) void = {
             fmt::print(letter)!;
         };
     };
+    fmt::print('\n')!;
 };
 
 export fn main() void = {
@@ -34,6 +35,7 @@ export fn main() void = {
     "            fmt::print(letter)!;",
     "        };",
     "    };",
+    "    fmt::print('\\n')!;",
     "};",
     "",
     "export fn main() void = {",
