@@ -1,4 +1,4 @@
-### download all of hare toolchain to local folder
+### download and build all of hare toolchain to local folder
 - ./init.sh
 ### build app
 - make
